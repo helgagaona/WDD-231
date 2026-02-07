@@ -1,0 +1,12 @@
+@media screen and (min-width: 700px) {
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    gap:30px;
+}
+    .media-card__img {
+        height: 250px;
+    }
+
+}

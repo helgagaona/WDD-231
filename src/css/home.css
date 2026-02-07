@@ -16,6 +16,7 @@ main > h1 {
   flex-direction: column;
   gap: 1em;
   padding: 1em;
+  
 }
 
 .info > * {
@@ -24,7 +25,7 @@ main > h1 {
 
 @media screen and (min-width: 630px) {
   .info {
-    flex-direction: row;
+   flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
   }
